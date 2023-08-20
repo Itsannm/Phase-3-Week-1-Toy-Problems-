@@ -1,3 +1,5 @@
+#Challenge 2: Two numbers are positive.
+
 def exactly_two_positive(a, b, c):
     positive_count = 0
 

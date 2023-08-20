@@ -1,3 +1,5 @@
+#Challenge 1: Converting 12-hour time to 24-hour time
+
 def convert_to_24_hour(hour, minute, period):
     if period == "pm" and hour != 12:
         hour += 12

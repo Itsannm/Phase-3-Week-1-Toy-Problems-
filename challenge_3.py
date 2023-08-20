@@ -1,3 +1,6 @@
+#Challenge 3: Consonant value
+
+
 def solve(s):
     # Define a string containing vowels
     vowels = "aeiou"
