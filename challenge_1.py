@@ -10,3 +10,9 @@ def convert_to_24_hour(hour, minute, period):
     minute_str = str(minute).rjust(2, '0')
     
     return hour_str + minute_str
+
+time_1 = convert_to_24_hour(8, 30, "am")
+print(time_1)  #Output 0830
+
+time_2 = convert_to_24_hour(8, 30, "pm")
+print(time_2)  #Output 2030

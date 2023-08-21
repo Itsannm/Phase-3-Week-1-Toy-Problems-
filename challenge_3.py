@@ -33,3 +33,5 @@ def solve(s):
     return max_value
 
 
+print(solve("zodiacs"))   # Output: 26
+print(solve("strength"))  # Output: 57
